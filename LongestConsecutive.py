@@ -14,7 +14,7 @@ test_inputs = [
 
 test_answers = [4, 4, 1, 5, 1]
 
-
+# Solution
 def longestConsecutive(nums):
     longest = 0
     num_set = set(nums)
@@ -32,7 +32,7 @@ def longestConsecutive(nums):
 
     return longest
 
-
+# Results
 for test_input, test_answer in zip(test_inputs, test_answers):
     test_output = (longestConsecutive(test_input))
     print("\nOutput: " + str(test_output))
