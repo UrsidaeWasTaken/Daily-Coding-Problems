@@ -17,7 +17,7 @@ def file_naming(files):
 
 # Testing
 class TestFileNaming(unittest.TestCase):
-    def test_cipher(self):
+    def test_file_naming(self):
         test_inputs = [
             ["doc", "doc", "image", "doc(1)", "doc"],
             ["a(1)", "a(6)", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"],
