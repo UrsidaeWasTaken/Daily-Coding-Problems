@@ -20,8 +20,8 @@ def reverse_parentheses(string):
     return ''.join(stack)
 
 # Testing
-class TestFileNaming(unittest.TestCase):
-    def test_cipher(self):
+class TestReverseParentheses(unittest.TestCase):
+    def test_reverse_parentheses(self):
         test_inputs = ["(bar)", "foo(bar)baz", "foo(bar)baz(blim)", "(abc)d(efg)", "foo(bar(baz))blim", "", "()"]
         test_answers = ["rab", "foorabbaz", "foorabbazmilb", "cbadgfe", "foobazrabblim", "", ""]
 
