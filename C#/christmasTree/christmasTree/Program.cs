@@ -1,5 +1,5 @@
 ﻿/*
- Given an integer ("n") draw a christmas tree with n height, under the following conditions...
+ Given integer ("n") draw a christmas tree with n height, under the following conditions...
  - The tree is centered
  - Increases by 2 ("++") each layer
  - Always has an extra small trunk ("+") at the bottom
