@@ -1,6 +1,5 @@
 ﻿/*
 Given the first two integers of an arithmetic progression sequence, find its nth element.
-
 For example, given the sequence [3, 2] and n = 4, the output should be 0.
  */
 
