@@ -10,7 +10,6 @@ A collection of ***'Daily Coding'*** type problems along with my solution using 
 - **Solution** - My solution to the problem 
 - **Test** - Testing against several test cases to check solution works
 
-## Quick Search
 ### Python
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Split By Value](Python/SplitByValue.py)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reverse Parentheses](Python/ReverseParentheses.py)
