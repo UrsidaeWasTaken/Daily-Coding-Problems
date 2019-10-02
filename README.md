@@ -33,5 +33,5 @@ A collection of ***'Daily Coding'*** type problems along with my solution using 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Length Of Longest Substring](Javascript/lengthOfLongestSubstring.js)
 
 ### C#
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Arithmetic Progression](C#/ArithmeticProgression/Program.cs)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Christmas Tree](C#/ChristmasTree/Program.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Arithmetic Progression](C%23/ArithmeticProgression/Program.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Christmas Tree](C%23/ChristmasTree/Program.cs)
