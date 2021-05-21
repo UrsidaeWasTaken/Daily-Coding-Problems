@@ -8,21 +8,15 @@ Given a list of paper citations of a researcher, calculate their h-index.
 """
 
 # Solution
-def calculate_h_index(citations):
-    passed = citations.copy() # The h-index will always be an element in the array
-    while passed:
-        h_index = max(passed)
-        occur = 0
-        for citation in citations:
-            occur += 1 if h_index <= citation else 0
-            if occur == h_index:
-                return h_index
-        passed.remove(h_index)
-    return 0
+def calculate_h_index(citations):   
+    h_index = 0
+    while sum(citation >= h_index for citation in citations) >= h_index:
+        h_index += 1
+    return h_index - 1
 
 # Custom Tests
-test_inputs = [[4, 3, 0, 1, 5], [100, 30, 2, 4], [0], [3, 1, 2, 57], [1, 60], [2, 2], [0, 5, 10, 15, 20]]
-test_answers = [3, 2, 0, 2, 1, 2, 0]
+test_inputs = [[4, 3, 0, 1, 5], [100, 30, 2, 4], [0, 2, 0], [0], [3, 1, 2, 57], [1, 60], [2, 2], [100, 100, 100], [0, 5, 10, 15, 20], [10, 12, 23, 11, 14, 1102, 203, 11, 11, 11, 12, 23]]
+test_answers = [3, 3, 1, 0, 2, 1, 2, 3, 4, 11]
 
 # Results
 for test_input, test_answer in zip(test_inputs, test_answers):
