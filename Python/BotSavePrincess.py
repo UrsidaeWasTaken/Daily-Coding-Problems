@@ -3,6 +3,14 @@
 Princess Peach is trapped in one of the four corners of a square grid. You are in the center of the grid and can move one step at a time in any of the four directions. The goal is to reach the princess in as few moves as possible.
 
 Print out the moves you will take to rescue the princess in one go. The moves must be separated by '\n', a newline. The valid moves are LEFT or RIGHT or UP or DOWN. The grid size is always odd.
+
+EXAMPLE:
+---
+-m-
+p--
+
+DOWN
+LEFT
 """
 
 # Solution
