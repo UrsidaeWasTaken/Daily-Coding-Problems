@@ -1,10 +1,11 @@
 # Problem
 """
-Princess Peach is trapped in one of the four corners of a square grid. You are in the center of the grid and can move one step at a time in any of the four directions. The goal is to reach the princess in as few moves as possible.
+Princess Peach is trapped in one of the four corners of a square grid. Mario is in the center of the grid and can move one step at a time in any of the four directions.
+The goal to get Mario to the princess in as few moves as possible.
 
-Print out the moves you will take to rescue the princess in one go. The moves must be separated by '\n', a newline. The valid moves are LEFT or RIGHT or UP or DOWN. The grid size is always odd.
+Print out the moves Mario will need to take to rescue the princess in one go. The moves must be separated by '\n', a newline. The valid moves are LEFT or RIGHT or UP or DOWN. The grid size is always odd.
 
-EXAMPLE:
+Example:
 ---
 -m-
 p--
