@@ -42,10 +42,10 @@ def solution(s):
 
 # Custom Tests
 test_inputs = ["aabbbc", "abbcabb", "abcd", "zzzz", "wwwwwwwawwwwwww", "ccccccccccccccc", "qwertyuioplkjhg", "ssiiggkooo", "adfaaa", "bbjaadlkjdl"]
-test_ouputs = ["2a3bc", "a2bca2b", "abcd", "4z", "7wa7w", "15c", "qwertyuioplkjhg", "2s2i2gk3o", "adf3a", "2bj2adlkjdl"]
+test_answers = ["2a3bc", "a2bca2b", "abcd", "4z", "7wa7w", "15c", "qwertyuioplkjhg", "2s2i2gk3o", "adf3a", "2bj2adlkjdl"]
 
 # Results
-for test_input, test_answer in zip(test_inputs, test_ouputs):
+for test_input, test_answer in zip(test_inputs, test_answers):
     test_output = (solution(test_input))
     print("\nOutput: " + str(test_output))
     print("Expected: " + str(test_answer))
