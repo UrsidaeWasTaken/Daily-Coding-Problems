@@ -1,3 +1,4 @@
+# Problem
 """
 Given a root node, calculate the sum of all nodes in it's binary tree.
 
@@ -27,9 +28,10 @@ class Node():
 
 # Explaination
 """
-We do a recursive depth-first traversal through the binary tree.
-Keep calling tree_sum until we reach a leaf. A leaf has no branches (None), so it will return 0.
-As it goes back up, it will return the next level's node data, which will sum its children's sum with its own to return to the next level until we reach the root.
+Either Breadth First Search (BFS) or Depth First Search (DFS) can be used to find the sum.
+
+Using the recursive BFS method, keep calling tree_sum until a leaf is reached. A leaf has no branches (None), so it will return 0.
+As it goes back up, the sum of the children node plus the current node will add up until the call stack reaches the root again.
 The root will return the final sum.
 """
 
@@ -88,4 +90,5 @@ test_answers = [20, 0, 623_693, 300]
 
 # Test Solution
 for i, answer in enumerate(test_answers):
-    print(f'Test Case {i+1}:\n Solution Output: {tree_sum(test_inputs[i])}\n Answer: {test_answers[i]}\n')
+    solution_answer = tree_sum(test_inputs[i])
+    print(f'Test Case {i+1}:\n Solution Output: {solution_answer}\n Answer: {test_answers[i]}\n')
