@@ -1,6 +1,6 @@
 # Problem
 """
-Given a Directed Graph and two vertices, check whether there is a path from the first given vertex to second.
+Given a Directed Graph (via adjacency list) and two vertices, check whether there is a path from the first given vertex to second.
 """
 graph = {
     'a': ['b', 'c'],
