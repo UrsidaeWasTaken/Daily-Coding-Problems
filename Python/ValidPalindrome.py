@@ -1,7 +1,7 @@
 # Problem
 """
 Given a Phrase (string), return if it is a palindrome (bool).
-Palindrome is a phrase that reads the same forward and backward.
+A palindrome is a phrase that reads the same forward and backward.
 """
 
 # Notes & Working-Outs
@@ -17,16 +17,16 @@ Examples:
 "race a car" <- False
 "Race car." <- True, spaces and punctuation are ignored. Case-insensitive.
 
-Only Alphanumeric should be acknowledged. (Numebers and Letters)
+Only Alphanumeric should be acknowledged. (Numbers and Letters)
 
 1. Given Phrase (String)
-2. Create empty string variable for phrase excluding non-alphanumeric characters.
-3. Loop through each character in phrase.
-4. Check if character is alphanumeric (letter or number).
-5. If character is alphanumeri, add to empty string variable.
+2. Create an empty string variable for phrase excluding non-alphanumeric characters.
+3. Loop through each character in the phrase.
+4. Check if the character is alphanumeric (letter or number).
+5. If the character is alphanumeric, add it to the empty string variable.
     Else, ignore.
-6. Check if new phrase variable reads the same forwards and backwards.
-7. If it reads the same forwards and backwards, return True.
+6. Check if the new phrase variable reads the same forwards and backward.
+7. If it reads the same forwards and backward, return True.
     Else, return False.
 """
 
